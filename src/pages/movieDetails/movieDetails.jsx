@@ -9,7 +9,7 @@ import Spinner from "../../components/Spinner/Spinner";
 import { FavoritesContext } from "../../context/FavoritesContext";
 import { FaHeart, FaRegHeart } from "react-icons/fa";
 import MovieCard from "../../components/MovieCard/MovieCard";
-import "./MovieDetails.css";
+import "./movieDetails.css";
 
 const MovieDetails = () => {
   const { id } = useParams();
