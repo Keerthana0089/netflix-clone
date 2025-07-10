@@ -1,3 +1,6 @@
+.search-container {
+  padding: 20px;
+}
 .search-page {
   padding: 2rem;
   background-color: var(--bg-color);
