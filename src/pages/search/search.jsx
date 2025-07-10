@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import MovieCard from "../../components/MovieCard/MovieCard";
 import Spinner from "../../components/Spinner/Spinner";
-import "./Search.css";
+import "./search.css";
 import { FaSearch } from "react-icons/fa";
 
 const SearchPage = () => {
