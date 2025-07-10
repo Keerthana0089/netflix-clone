@@ -7,7 +7,7 @@ import HeroBanner from "../../components/HeroBanner/HeroBanner";
 import MovieCard from "../../components/MovieCard/MovieCard";
 import GenreFilter from "../../components/GenreFilter/GenreFilter";
 import Spinner from "../../components/Spinner/Spinner";
-import "./LandingPage.css";
+import "./landingPage.css";
 
 const LandingPage = () => {
   const dispatch = useDispatch();
