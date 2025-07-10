@@ -1,0 +1,36 @@
+.search-page {
+  padding: 2rem;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  min-height: 100vh;
+}
+
+.search-page input {
+  padding: 0.7rem 1rem;
+  width: 100%;
+  max-width: 400px;
+  font-size: 1rem;
+  margin: 1rem auto 2rem;
+  display: block;
+  border-radius: 5px;
+  border: 1px solid var(--text-color);
+  background-color: var(--card-bg);
+  color: var(--text-color);
+}
+
+.search-page input::placeholder {
+  color: #999;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.empty {
+  text-align: center;
+  color: #999;
+  font-size: 1.2rem;
+}

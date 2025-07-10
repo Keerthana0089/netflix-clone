@@ -1,0 +1,26 @@
+.favorites-page {
+  padding: 2rem;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  min-height: 100vh;
+}
+
+.favorites-page h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+
+.empty {
+  text-align: center;
+  color: #ccc;
+  font-size: 1.2rem;
+  margin-top: 4rem;
+}
